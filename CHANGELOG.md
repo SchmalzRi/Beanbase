@@ -1,3 +1,11 @@
+## 0.1.6 — UI Alpha 7 GitHub Pages Hotfix
+
+- Fehlende PWA-Dateien (`manifest.webmanifest`, `sw.js`) wiederhergestellt.
+- Eigenen Alpha-7-Cache ergänzt und alte Beanbase-Caches beim Aktivieren entfernt.
+- Navigation auf Network-first umgestellt, damit neue GitHub-Pages-Builds nicht durch einen alten Offline-Cache verdeckt werden.
+- Veraltete Versionsangaben in App und Begleitdateien korrigiert.
+- Keine bestehenden Funktionen entfernt oder verändert.
+
 ## 0.1.6 — UI Alpha 7
 
 - Entkalkungs-Countdown neu ausgerichtet: Jeder Zahlenwert steht jetzt direkt und zentriert über seiner Einheit (Wochen, Tage, Stunden).

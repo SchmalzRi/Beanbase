@@ -1,7 +1,16 @@
-# Beanbase 0.1.6 – UI Alpha 6
+# Beanbase 0.1.6 – UI Alpha 7
 
 Lokale, installierbare UI-Alpha für Beanbase.
 
-Neu in dieser Version: konfigurierbares De'Longhi-zentriertes Kaffee-Setup und ein Entkalkungs-Countdown mit Wochen:Tage:Stunden, Reset-Protokoll und Rückgängig-Funktion.
+Diese Ausgabe enthält den vollständigen Funktionsstand von **Beanbase 0.1.6 UI Alpha 7** sowie den GitHub-Pages-/PWA-Deployment-Hotfix. Der Entkalkungs-Countdown zeigt jeden Zahlenwert direkt und zentriert über seiner Einheit an.
+
+## Datenstand
 
 Die Daten werden lokal im Browser gespeichert. Profilbilder liegen in IndexedDB. Noch keine gemeinsame Supabase-Synchronisierung.
+
+## Deployment-Hotfix
+
+- Fehlende `manifest.webmanifest` und `sw.js` wiederhergestellt.
+- Neuer Cache `beanbase-0.1.6-alpha.7` ersetzt ältere Beanbase-Caches.
+- Navigation lädt zuerst die aktuelle GitHub-Pages-Version und nutzt den Cache nur offline.
+- `.nojekyll` ergänzt, damit GitHub Pages alle Dateien unverändert ausliefert.
