@@ -1,5 +1,12 @@
-# Beanbase 0.1.0 Alpha 1
+# Beanbase 0.1.4 – UI Alpha 5
 
-Lokale UI-Alpha für die abgestimmten Module Kaffee, Büro, Personen und Einstellungen.
+Lokale, installierbare UI-Alpha für Beanbase. Diese Version testet zusätzlich den vollständigen Profilbild-Ablauf vor der Supabase-Anbindung.
 
-Diese Version nutzt absichtlich nur lokalen Browser-Speicher. Mehrgeräte-Synchronisierung, echte Konten, Einladungen, Profilfoto-Uploads und Admin-Passwort-Resets folgen mit der Supabase Connected Alpha.
+## Profilbilder testen
+
+1. Öffne **Personen** und tippe bei einem Profil auf das Herz-Symbol zum Bearbeiten – oder öffne **Einstellungen → Mein Profil**.
+2. Wähle ein Bild aus der Fotomediathek, als Datei oder direkt über die Kamera, sofern der Browser dies anbietet.
+3. Passe Zoom und Position an.
+4. Speichere das Profil.
+
+Das Bild wird lokal auf 384 × 384 px zugeschnitten, als WebP komprimiert und in IndexedDB gespeichert. Es wird noch nicht zwischen Geräten synchronisiert.
