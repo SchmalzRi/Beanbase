@@ -14,3 +14,7 @@ Die Daten werden lokal im Browser gespeichert. Profilbilder liegen in IndexedDB.
 - Neuer Cache `beanbase-0.1.6-alpha.7` ersetzt ältere Beanbase-Caches.
 - Navigation lädt zuerst die aktuelle GitHub-Pages-Version und nutzt den Cache nur offline.
 - `.nojekyll` ergänzt, damit GitHub Pages alle Dateien unverändert ausliefert.
+
+## GitHub Actions Deployment
+
+Das Paket enthält `.github/workflows/static.yml` mit der aktuellen Node-24-kompatiblen GitHub-Pages-Action-Kette. Ein eventuell bereits vorhandener alter Pages-Workflow muss ersetzt werden, damit nicht mehrere Deployments parallel ausgelöst werden.
