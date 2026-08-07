@@ -24,3 +24,11 @@
 
 ## Weiterhin lokal
 Alle Wartungs- und Setupdaten bleiben in dieser Alpha im Browser und werden erst in der Connected Alpha mit Supabase geteilt.
+
+## 0.1.6 UI Alpha 7 – GitHub Actions Deployment Hotfix
+
+- GitHub-Pages-Workflow auf Node-24-kompatible Actions aktualisiert.
+- Laufende Deployments werden nicht mehr durch neuere Workflow-Läufe abgebrochen.
+- Deployment-Artefakt wird kontrolliert aus einem `_site`-Ordner erzeugt.
+- Kritische PWA-Dateien werden vor dem Upload validiert.
+- Keine Änderung an Beanbase-Funktionen oder lokalen Daten.
