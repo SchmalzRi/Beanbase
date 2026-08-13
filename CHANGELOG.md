@@ -1,3 +1,14 @@
+## 0.1.7 — UI Alpha 8
+
+- Bewertungs-Zahlenfelder wählen beim Fokus/Klick automatisch den vorhandenen Wert aus, damit direkte Eingabe die Vorgabe ersetzt.
+- Zahleneingabe bleibt auf 1–10 begrenzt und behält die numerische Mobil-Tastatur.
+- Das direkte × bei „Fehlt im Büro“ wurde entfernt, um Fehlklicks zu vermeiden.
+- Fehlende Artikel werden jetzt über die komplette Zeile geöffnet und bewusst als „mitgebracht“ bestätigt.
+- Beim Bestätigen wird der Name der bringenden Person erfasst, der Artikel aus der Fehl-Liste entfernt und automatisch unter „Mitgebracht von Kolleg:innen“ verbucht.
+- Bestehende Kolleg:innen stehen bei Beiträgen als Namensvorschläge bereit.
+- Der korrigierte direkte GitHub-Pages-Workflow aus Alpha 7 ist Bestandteil des Pakets.
+- Keine bestehende Beanbase-Funktion entfernt; LocalStorage-Key bleibt unverändert.
+
 ## 0.1.6 — UI Alpha 7 GitHub Pages Hotfix
 
 - Fehlende PWA-Dateien (`manifest.webmanifest`, `sw.js`) wiederhergestellt.

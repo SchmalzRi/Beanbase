@@ -13,7 +13,7 @@ Der vorherige GitHub-Pages-Workflow verwendet veraltete Node-20-Actions. Dieses 
 5. Unter **Settings → Pages → Build and deployment → Source** muss **GitHub Actions** ausgewählt sein.
 6. Unter **Actions** den Lauf **Deploy Beanbase to GitHub Pages** öffnen. `build` und danach `deploy` müssen grün werden.
 7. Anschließend die Webseite neu laden. Eine installierte PWA vollständig schließen und erneut öffnen.
-8. Unter **Einstellungen → Über Beanbase** muss **Version 0.1.6-alpha.7** stehen.
+8. Unter **Einstellungen → Über Beanbase** muss **Version 0.1.7-alpha.8** stehen.
 
 ## Was der Workflow korrigiert
 

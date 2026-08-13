@@ -1,4 +1,4 @@
-const CACHE = 'beanbase-0.1.6-alpha.7';
+const CACHE = 'beanbase-0.1.7-alpha.8';
 const CORE_ASSETS = [
   './',
   './index.html',

@@ -2,7 +2,7 @@
   "id": "./",
   "name": "Beanbase – Die Kaffeebasis fürs Büro",
   "short_name": "Beanbase",
-  "description": "Lokale Beanbase UI Alpha für den Büro-Kaffeealltag.",
+  "description": "Beanbase UI Alpha 8 für den Büro-Kaffeealltag.",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
